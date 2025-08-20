@@ -10,7 +10,8 @@ module.exports = {
   	extend: {
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-  			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
+  			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+				hero: 'url(/hero/hero-bg.png)'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -35,6 +36,9 @@ module.exports = {
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
   				foreground: 'hsl(var(--secondary-foreground))'
+  			},
+  			tertiary: {
+  				DEFAULT: 'hsl(var(--tertiary))',
   			},
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
