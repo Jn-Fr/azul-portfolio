@@ -186,7 +186,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <div className="text-primary ">Language Skill</div>
                       <div className="border-b border-border"></div>
-                      <div>English, Spanish</div>
+                      <div>Spanish, English</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -308,7 +308,7 @@ const About = () => {
                           const { imgPath } = item;
 
                           return (
-                            <div>
+                            <div key={index}>
                               <Image
                                 src={imgPath}
                                 width={48}
